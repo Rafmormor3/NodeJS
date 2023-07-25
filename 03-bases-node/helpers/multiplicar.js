@@ -29,7 +29,7 @@ try{
     console.log(salida);
     fs.writeFileSync(`./salida/tabla-${base}.txt`,consola);
     return(`tabla-${base}.txt`);
-
+    
 }catch(err){
     throw err;
 }
